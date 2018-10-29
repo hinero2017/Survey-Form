@@ -1,0 +1,91 @@
+body {
+	background-color: #c4badb;
+}
+
+h1 {
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.67em;
+	margin-block-end: 0.67em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 1em;
+}
+
+.container {
+	background-color: #fff;
+	text-align: left;
+	margin: auto 250px;
+	padding: 60px;
+}
+
+#description {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.labels {
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding: 5px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.rightTab {
+	display: inline-block;
+	text-align: left;
+	width: 48%;
+	vertical-align: middle;
+}
+
+.dropdown {
+	height: 35px;
+	width: 140px;
+	padding: 5px;
+	margin: 10px;
+	margin-top: 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+.radio {
+	position: relative;
+	left: -43px;
+	margin-left: 10px;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.input-field {
+	height: 20px;
+	width: 280px;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
+}
+
+#submit {
+	display: inline-block;
+	background-color: #59ace0;
+	border-radius: 4px;
+	color: white;
+	font-size: 1em;
+	height: 40px;
+	width: 96px;
+	margin: 10px;
+	border: 0px solid;
+	align-items: flex-start;
+	margin-left: 330px;
+	margin-top: 20px;
+}
