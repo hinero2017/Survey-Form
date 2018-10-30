@@ -19,10 +19,22 @@ p {
 }
 
 .container {
+	display: block;
 	background-color: #fff;
 	text-align: left;
-	margin: auto 250px;
-	padding: 60px;
+	margin: auto;
+	padding: 20px;
+	width: 690px;
+}
+
+#survey-form {
+	background-color: rgb(250, 250, 250);
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
 }
 
 #description {
@@ -75,17 +87,66 @@ p {
 	border-radius: 2px;
 }
 
-#submit {
-	display: inline-block;
+button {
+	display: block;
 	background-color: #59ace0;
 	border-radius: 4px;
 	color: white;
 	font-size: 1em;
 	height: 40px;
 	width: 96px;
-	margin: 10px;
+	margin: 10px auto;
 	border: 0px solid;
 	align-items: flex-start;
-	margin-left: 330px;
-	margin-top: 20px;
+}
+
+@media screen and (max-width: 833px) {
+	.container {
+		width: 400px;
+	}
+	.input-field {
+		width: 80%;
+	}
+	select {
+		width: 90%;
+	}
+	.labels {
+		text-align: left;
+		width: 90%;
+		font-size: 1rem;
+		padding: 0 1rem;
+	}
+	.input-field {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+	.input-field {
+		width: 50%;
+	}
+	select {
+		width: 60%;
+	}
+	.labels {
+		text-align: left;
+		width: 60%;
+		font-size: 1rem;
+		padding: 0 1rem;
+	}
+	.rightTab {
+		text-align: left;
+	}
+	.input-field {
+		width: 150px;
+	}
+	.radio {
+		padding: 10px;
+		margin: 2px;
+	}
+	button {
+		display: center;
+	}
 }
